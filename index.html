@@ -42,8 +42,12 @@
             <label for="address">Address</label>
             <input type="text" id="address" name="address" required>
 
+            <form action="/upload" method="post" enctype="multipart/form-data">
               <label for="address">Upload a proof of identity</label>
-            <input type="text" id="address" name="address" required>
+        <label for="image">Select image:</label>
+        <input type="file" id="meessage" name="image" accept="image/*">
+        <br><br>
+        <input type="submit" value="Upload Image">
             
                         <label for="date">Preferred Date to receive your Funds?</label>
                         <br> <br>
